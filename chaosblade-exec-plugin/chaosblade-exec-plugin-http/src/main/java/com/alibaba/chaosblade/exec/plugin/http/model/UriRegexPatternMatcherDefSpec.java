@@ -1,6 +1,7 @@
 package com.alibaba.chaosblade.exec.plugin.http.model;
 
 import com.alibaba.chaosblade.exec.common.model.matcher.BasePredicateMatcherSpec;
+import com.alibaba.chaosblade.exec.plugin.http.HttpConstant;
 
 public class UriRegexPatternMatcherDefSpec extends BasePredicateMatcherSpec {
 
