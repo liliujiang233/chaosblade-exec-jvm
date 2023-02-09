@@ -13,6 +13,7 @@ public class HttpConstant {
 
     public static final String TARGET_NAME = "http";
     public static final String URI_KEY = "uri";
+    public static final String URI_REGEX_PATTERN_KEY = "uri-regex-pattern";
     public static final String REST_KEY = "rest";
     public static final String HTTPCLIENT4 = "httpclient4";
     public static final String HTTPCLIENT3 = "httpclient3";

@@ -2,16 +2,16 @@ package com.alibaba.chaosblade.exec.plugin.http.model;
 
 import com.alibaba.chaosblade.exec.common.model.matcher.BasePredicateMatcherSpec;
 
-public class UriMatcherDefSpec extends BasePredicateMatcherSpec {
+public class UriRegexPatternMatcherDefSpec extends BasePredicateMatcherSpec {
 
     @Override
     public String getName() {
-        return "uri";
+        return HttpConstant.URI_REGEX_PATTERN_KEY;
     }
 
     @Override
     public String getDesc() {
-        return "url";
+        return "regex match url";
     }
 
     @Override

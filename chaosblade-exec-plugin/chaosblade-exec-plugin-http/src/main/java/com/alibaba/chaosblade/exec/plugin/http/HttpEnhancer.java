@@ -50,6 +50,7 @@ public abstract class HttpEnhancer extends BeforeEnhancer {
             throws Exception {
         MatcherModel matcherModel = new MatcherModel();
         matcherModel.add(HttpConstant.URI_KEY, getUrl(object, methodArguments));
+        matcherModel.add(HttpConstant.URI_REGEX_PATTERN_KEY, getUrl(object, methodArguments));
         if (LOGGER.isDebugEnabled()) {
             LOGGER.debug("http matchers: {}", JsonUtil.writer().writeValueAsString(matcherModel));
         }
